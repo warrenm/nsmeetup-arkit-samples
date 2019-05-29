@@ -150,6 +150,8 @@ func addInk(at point: CGPoint) {
                 statusLabel.text = "Slow down..."
             case .insufficientFeatures:
                 statusLabel.text = "Insufficient features"
+            case .relocalizing:
+                statusLabel.text = "Relocalizing"
             }
         }
     }

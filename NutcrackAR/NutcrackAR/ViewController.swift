@@ -110,6 +110,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
                 statusLabel.text = "Slow down..."
             case .insufficientFeatures:
                 statusLabel.text = "Insufficient features"
+            case .relocalizing:
+                statusLabel.text = "Relocalizing..."
             }
         }
     }
